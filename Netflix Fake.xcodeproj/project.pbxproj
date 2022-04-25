@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		42909520281679EF00F29657 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4290951F281679EF00F29657 /* AppDelegate.swift */; };
 		42909522281679EF00F29657 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42909521281679EF00F29657 /* SceneDelegate.swift */; };
-		42909524281679EF00F29657 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42909523281679EF00F29657 /* ViewController.swift */; };
+		42909524281679EF00F29657 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42909523281679EF00F29657 /* MainTabBarViewController.swift */; };
 		42909527281679EF00F29657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42909525281679EF00F29657 /* Main.storyboard */; };
 		42909529281679F000F29657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42909528281679F000F29657 /* Assets.xcassets */; };
 		4290952C281679F000F29657 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4290952A281679F000F29657 /* LaunchScreen.storyboard */; };
-		42909537281679F000F29657 /* Netflix_FakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42909536281679F000F29657 /* Netflix_FakeTests.swift */; };
-		42909541281679F000F29657 /* Netflix_FakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42909540281679F000F29657 /* Netflix_FakeUITests.swift */; };
-		42909543281679F000F29657 /* Netflix_FakeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42909542281679F000F29657 /* Netflix_FakeUITestsLaunchTests.swift */; };
+		429095512816805B00F29657 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429095502816805B00F29657 /* HomeViewController.swift */; };
+		429095532816809100F29657 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429095522816809100F29657 /* UpcomingViewController.swift */; };
+		42909555281680B400F29657 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42909554281680B400F29657 /* SearchViewController.swift */; };
+		42909557281680D100F29657 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42909556281680D100F29657 /* DownloadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +40,17 @@
 		4290951C281679EF00F29657 /* Netflix Fake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix Fake.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4290951F281679EF00F29657 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42909521281679EF00F29657 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		42909523281679EF00F29657 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42909523281679EF00F29657 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		42909526281679EF00F29657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42909528281679F000F29657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4290952B281679F000F29657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4290952D281679F000F29657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42909532281679F000F29657 /* Netflix FakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Netflix FakeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		42909536281679F000F29657 /* Netflix_FakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netflix_FakeTests.swift; sourceTree = "<group>"; };
 		4290953C281679F000F29657 /* Netflix FakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Netflix FakeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		42909540281679F000F29657 /* Netflix_FakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netflix_FakeUITests.swift; sourceTree = "<group>"; };
-		42909542281679F000F29657 /* Netflix_FakeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netflix_FakeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		429095502816805B00F29657 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		429095522816809100F29657 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		42909554281680B400F29657 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		42909556281680D100F29657 /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				4290951E281679EF00F29657 /* Netflix Fake */,
-				42909535281679F000F29657 /* Netflix FakeTests */,
-				4290953F281679F000F29657 /* Netflix FakeUITests */,
 				4290951D281679EF00F29657 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,9 +99,10 @@
 		4290951E281679EF00F29657 /* Netflix Fake */ = {
 			isa = PBXGroup;
 			children = (
+				4290954F2816800900F29657 /* Controllers */,
 				4290951F281679EF00F29657 /* AppDelegate.swift */,
 				42909521281679EF00F29657 /* SceneDelegate.swift */,
-				42909523281679EF00F29657 /* ViewController.swift */,
+				42909523281679EF00F29657 /* MainTabBarViewController.swift */,
 				42909525281679EF00F29657 /* Main.storyboard */,
 				42909528281679F000F29657 /* Assets.xcassets */,
 				4290952A281679F000F29657 /* LaunchScreen.storyboard */,
@@ -110,21 +111,15 @@
 			path = "Netflix Fake";
 			sourceTree = "<group>";
 		};
-		42909535281679F000F29657 /* Netflix FakeTests */ = {
+		4290954F2816800900F29657 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				42909536281679F000F29657 /* Netflix_FakeTests.swift */,
+				429095502816805B00F29657 /* HomeViewController.swift */,
+				429095522816809100F29657 /* UpcomingViewController.swift */,
+				42909554281680B400F29657 /* SearchViewController.swift */,
+				42909556281680D100F29657 /* DownloadViewController.swift */,
 			);
-			path = "Netflix FakeTests";
-			sourceTree = "<group>";
-		};
-		4290953F281679F000F29657 /* Netflix FakeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				42909540281679F000F29657 /* Netflix_FakeUITests.swift */,
-				42909542281679F000F29657 /* Netflix_FakeUITestsLaunchTests.swift */,
-			);
-			path = "Netflix FakeUITests";
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +253,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42909524281679EF00F29657 /* ViewController.swift in Sources */,
+				42909555281680B400F29657 /* SearchViewController.swift in Sources */,
+				42909524281679EF00F29657 /* MainTabBarViewController.swift in Sources */,
 				42909520281679EF00F29657 /* AppDelegate.swift in Sources */,
+				42909557281680D100F29657 /* DownloadViewController.swift in Sources */,
 				42909522281679EF00F29657 /* SceneDelegate.swift in Sources */,
+				429095532816809100F29657 /* UpcomingViewController.swift in Sources */,
+				429095512816805B00F29657 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +267,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42909537281679F000F29657 /* Netflix_FakeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +274,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42909543281679F000F29657 /* Netflix_FakeUITestsLaunchTests.swift in Sources */,
-				42909541281679F000F29657 /* Netflix_FakeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,7 +440,6 @@
 				INFOPLIST_FILE = "Netflix Fake/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +467,6 @@
 				INFOPLIST_FILE = "Netflix Fake/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
